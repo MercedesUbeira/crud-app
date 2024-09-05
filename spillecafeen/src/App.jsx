@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Header from './components/Header';
 import FilterSection from './components/FilterSection';
 import GameList from './components/GameList';
+import AddGame from './components/AddGame';  // New Component
 import gameData from './data/games-data.json';
 
 const App = () => {
@@ -20,39 +22,61 @@ const App = () => {
     let filtered = games;
 
     if (selectedCategory) {
-      filtered = filtered.filter(game => game.category === selectedCategory);
+      filtered = filtered.filter((game) => game.category === selectedCategory);
     }
 
     if (selectedTime) {
-      filtered = filtered.filter(game => {
+      filtered = filtered.filter((game) => {
         const time = game.time_of_play.split('-');
         const minTime = parseInt(time[0]);
         const maxTime = time[1] ? parseInt(time[1]) : minTime;
 
-        const [selectedMinTime, selectedMaxTime] = selectedTime.split('-').map(t => parseInt(t.replace("'", "")));
-        
+        const [selectedMinTime, selectedMaxTime] = selectedTime.split('-').map((t) =>
+          parseInt(t.replace("'", ''))
+        );
+
         return minTime >= selectedMinTime && maxTime <= selectedMaxTime;
       });
     }
 
     if (selectedPlace) {
-      filtered = filtered.filter(game => game.availability.includes(selectedPlace));
+      filtered = filtered.filter((game) => game.availability.includes(selectedPlace));
     }
 
     setFilteredGames(filtered);
-
   }, [selectedCategory, selectedTime, selectedPlace, games]);
 
+  const handleAddGame = (newGame) => {
+    setGames((prevGames) => [...prevGames, newGame]);
+    setFilteredGames((prevGames) => [...prevGames, newGame]);
+  };
+
   return (
-    <div className="font-sans">
-      <Header />
-      <FilterSection
-        setSelectedCategory={setSelectedCategory}
-        setSelectedTime={setSelectedTime}
-        setSelectedPlace={setSelectedPlace}
-      />
-      <GameList games={filteredGames} />
-    </div>
+    <Router>
+      <div className="font-sans">
+        <Header />
+        <nav className="p-4">
+          <Link to="/" className="mr-4 text-blue-500">Home</Link>
+          <Link to="/add-game" className="text-blue-500">Add Game</Link>
+        </nav>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <FilterSection
+                  setSelectedCategory={setSelectedCategory}
+                  setSelectedTime={setSelectedTime}
+                  setSelectedPlace={setSelectedPlace}
+                />
+                <GameList games={filteredGames} />
+              </>
+            }
+          />
+          <Route path="/add-game" element={<AddGame onAddGame={handleAddGame} />} />
+        </Routes>
+      </div>
+    </Router>
   );
 };
 
