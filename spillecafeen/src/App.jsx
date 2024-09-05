@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Header from './components/Header';
 import FilterSection from './components/FilterSection';
 import GameList from './components/GameList';
-import AddGame from './components/AddGame';  // New Component
+import AddGame from './components/AddGame'; 
 import gameData from './data/games-data.json';
 
 const App = () => {
@@ -55,10 +55,7 @@ const App = () => {
     <Router>
       <div className="font-sans">
         <Header />
-        <nav className="p-4">
-          <Link to="/" className="mr-4 text-blue-500">Home</Link>
-          <Link to="/add-game" className="text-blue-500">Add Game</Link>
-        </nav>
+        <div className="flex items-center justify-center"> <h1 className="text-center text-3xl font-bold">Game Finder</h1></div>
         <Routes>
           <Route
             path="/"

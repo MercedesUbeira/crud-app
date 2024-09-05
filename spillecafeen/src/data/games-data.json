@@ -1,7 +1,7 @@
 [
     {
       "name": "It's a Balloon?",
-      "picture": "placeholder_image.jpg",
+      "picture": "balloon.png",
       "description": "A fun communication game where players describe objects without mentioning their names.",
       "how_to_play": "Each player takes turns describing an object on a card without using certain words while others guess the object.",
       "time_of_play": "20-30 minutes",
@@ -13,7 +13,7 @@
     },
     {
       "name": "Sonar Family",
-      "picture": "placeholder_image.jpg",
+      "picture": "sonar.png",
       "description": "A strategic game where players become submarine captains in a battle of wits.",
       "how_to_play": "Teams navigate a submarine while trying to locate and destroy the enemy. The first to achieve their mission wins.",
       "time_of_play": "30-45 minutes",
