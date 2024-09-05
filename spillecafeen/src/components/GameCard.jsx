@@ -7,13 +7,14 @@ const GameCard = ({ game }) => (
       alt={game.name}
       className="w-400 h-auto mb-2 rounded"
     />
-    <h3 className="text-xl font-semibold">{game.name}</h3>
+    <div className='flex1'><h3 className="text-xl font-bold">{game.name}</h3>
     <p className="mt-2 text-gray-700">{game.description}</p>
-    <p className="text-gray-600"><strong>Players:</strong> {game.players}</p>
-    <p className="text-gray-600"><strong>Time:</strong> {game.time_of_play}</p>
-    <p className="text-gray-600"><strong>Language:</strong> {game.language}</p>
-    <p className="text-gray-600"><strong>Difficulty:</strong> {game.difficulty}</p>
-    <p className="text-gray-600"><strong>Classification:</strong> {game.section}</p>
+    <p><strong>Players:</strong> {game.players}</p>
+    <p ><strong>Time:</strong> {game.time_of_play}</p>
+    <p ><strong>Language:</strong> {game.language}</p>
+    <p ><strong>Difficulty:</strong> {game.difficulty}</p>
+    <p className="text-red-600 font-bold mt-2">{game.section}</p></div>
+    
   </div>
 );
 
