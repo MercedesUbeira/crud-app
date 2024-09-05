@@ -1,0 +1,135 @@
+[
+    {
+      "name": "It's a Balloon?",
+      "picture": "placeholder_image.jpg",
+      "description": "A fun communication game where players describe objects without mentioning their names.",
+      "how_to_play": "Each player takes turns describing an object on a card without using certain words while others guess the object.",
+      "time_of_play": "20-30 minutes",
+      "players": "3-8",
+      "section": "A1",
+      "availability": ["Vestergade", "Fredensgade"],
+      "category": "Communication",
+      "language": "English"
+    },
+    {
+      "name": "Sonar Family",
+      "picture": "placeholder_image.jpg",
+      "description": "A strategic game where players become submarine captains in a battle of wits.",
+      "how_to_play": "Teams navigate a submarine while trying to locate and destroy the enemy. The first to achieve their mission wins.",
+      "time_of_play": "30-45 minutes",
+      "players": "2-4",
+      "section": "B1",
+      "availability": ["Fredensgade", "Bredegade"],
+      "category": "Communication",
+      "language": "Danish"
+    },
+    {
+      "name": "Drop It",
+      "picture": "placeholder_image.jpg",
+      "description": "A game of gravity and strategy where players drop pieces into a vertical board.",
+      "how_to_play": "Players drop different shaped pieces into a board, scoring points based on where they land without breaking placement rules.",
+      "time_of_play": "20 minutes",
+      "players": "2-4",
+      "section": "A2",
+      "availability": ["Vestergade", "Bredegade"],
+      "category": "Good for 2",
+      "language": "English"
+    },
+    {
+      "name": "Match Madness",
+      "picture": "placeholder_image.jpg",
+      "description": "A fast-paced game where players race to match patterns on cards with their blocks.",
+      "how_to_play": "Players flip a card and race to replicate the pattern using their blocks. The fastest player wins the card.",
+      "time_of_play": "10-20 minutes",
+      "players": "1-4",
+      "section": "B2",
+      "availability": ["Vestergade", "Fredensgade"],
+      "category": "Good for 2",
+      "language": "Danish"
+    },
+    {
+      "name": "Catapults",
+      "picture": "placeholder_image.jpg",
+      "description": "A children's game where players use a catapult to launch objects into targets.",
+      "how_to_play": "Players take turns launching objects from a catapult and score points based on where the objects land.",
+      "time_of_play": "15 minutes",
+      "players": "2-6",
+      "section": "A1",
+      "availability": ["Fredensgade", "Bredegade"],
+      "category": "For Kids!",
+      "language": "English"
+    },
+    {
+      "name": "Samilo",
+      "picture": "placeholder_image.jpg",
+      "description": "A cooperative game for children where they must work together to achieve a common goal.",
+      "how_to_play": "Players work together to collect resources and complete objectives before time runs out.",
+      "time_of_play": "20 minutes",
+      "players": "2-4",
+      "section": "B1",
+      "availability": ["Vestergade", "Fredensgade"],
+      "category": "For Kids!",
+      "language": "Danish"
+    },
+    {
+      "name": "Taco Cat Goat Cheese Pizza",
+      "picture": "placeholder_image.jpg",
+      "description": "A fast-paced card game with a sequence of words that players must match with actions.",
+      "how_to_play": "Players take turns placing cards in a pile while reciting 'Taco, Cat, Goat, Cheese, Pizza'. When a card matches the word, they must perform the action.",
+      "time_of_play": "10-15 minutes",
+      "players": "2-8",
+      "section": "A2",
+      "availability": ["Bredegade", "Fredensgade"],
+      "category": "For Kids!",
+      "language": "English"
+    },
+    {
+      "name": "Scooby Doo: Escape from the Haunting Mansion",
+      "picture": "placeholder_image.jpg",
+      "description": "An escape room game where players solve mysteries with the Scooby-Doo gang.",
+      "how_to_play": "Players explore the mansion, solving puzzles and uncovering clues to escape before time runs out.",
+      "time_of_play": "60-90 minutes",
+      "players": "1-5",
+      "section": "B2",
+      "availability": ["Vestergade"],
+      "category": "Escape Rooms",
+      "language": "Danish"
+    },
+    {
+      "name": "Escape the Dark Castle",
+      "picture": "placeholder_image.jpg",
+      "description": "A cooperative adventure game where players escape from a castle by overcoming challenges.",
+      "how_to_play": "Players work together to explore rooms, face encounters, and defeat bosses to escape the castle.",
+      "time_of_play": "30-60 minutes",
+      "players": "1-4",
+      "section": "A1",
+      "availability": ["Fredensgade", "Bredegade"],
+      "category": "Escape Rooms",
+      "language": "English"
+    },
+    {
+      "name": "No Thanks",
+      "picture": "placeholder_image.jpg",
+      "description": "A card game of bidding and bluffing where the goal is to get the fewest points.",
+      "how_to_play": "Players choose whether to take a card with points or pass it by paying a token. The game ends when all cards are taken.",
+      "time_of_play": "20 minutes",
+      "players": "3-7",
+      "section": "B1",
+      "availability": ["Vestergade", "Fredensgade"],
+      "category": "Negotiation",
+      "language": "Danish"
+    },
+    {
+      "name": "Waterfall Park",
+      "picture": "placeholder_image.jpg",
+      "description": "A game where players build a park by negotiating with each other to gather resources.",
+      "how_to_play": "Players take turns negotiating deals with other players to collect resources and build the best park.",
+      "time_of_play": "45 minutes",
+      "players": "2-5",
+      "section": "B2",
+      "availability": ["Bredegade"],
+      "category": "Negotiation",
+      "language": "English"
+    }
+  ]
+  
