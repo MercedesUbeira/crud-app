@@ -25,7 +25,7 @@
     },
     {
       "name": "Drop It",
-      "picture": "placeholder_image.jpg",
+      "picture": "Drop it.png",
       "description": "A game of gravity and strategy where players drop pieces into a vertical board.",
       "how_to_play": "Players drop different shaped pieces into a board, scoring points based on where they land without breaking placement rules.",
       "time_of_play": "20 minutes",
@@ -37,7 +37,7 @@
     },
     {
       "name": "Match Madness",
-      "picture": "placeholder_image.jpg",
+      "picture": "Match madness.png",
       "description": "A fast-paced game where players race to match patterns on cards with their blocks.",
       "how_to_play": "Players flip a card and race to replicate the pattern using their blocks. The fastest player wins the card.",
       "time_of_play": "10-20 minutes",
@@ -49,7 +49,7 @@
     },
     {
       "name": "Catapults",
-      "picture": "placeholder_image.jpg",
+      "picture": "Catapults.png",
       "description": "A children's game where players use a catapult to launch objects into targets.",
       "how_to_play": "Players take turns launching objects from a catapult and score points based on where the objects land.",
       "time_of_play": "15 minutes",
@@ -61,7 +61,7 @@
     },
     {
       "name": "Samilo",
-      "picture": "placeholder_image.jpg",
+      "picture": "Samilo.png",
       "description": "A cooperative game for children where they must work together to achieve a common goal.",
       "how_to_play": "Players work together to collect resources and complete objectives before time runs out.",
       "time_of_play": "20 minutes",
@@ -73,7 +73,7 @@
     },
     {
       "name": "Taco Cat Goat Cheese Pizza",
-      "picture": "placeholder_image.jpg",
+      "picture": "taco-cat.png",
       "description": "A fast-paced card game with a sequence of words that players must match with actions.",
       "how_to_play": "Players take turns placing cards in a pile while reciting 'Taco, Cat, Goat, Cheese, Pizza'. When a card matches the word, they must perform the action.",
       "time_of_play": "10-15 minutes",
@@ -85,7 +85,7 @@
     },
     {
       "name": "Scooby Doo: Escape from the Haunting Mansion",
-      "picture": "placeholder_image.jpg",
+      "picture": "Scooby Doo Escape Room.png",
       "description": "An escape room game where players solve mysteries with the Scooby-Doo gang.",
       "how_to_play": "Players explore the mansion, solving puzzles and uncovering clues to escape before time runs out.",
       "time_of_play": "60-90 minutes",
@@ -97,7 +97,7 @@
     },
     {
       "name": "Escape the Dark Castle",
-      "picture": "placeholder_image.jpg",
+      "picture": "Escape the dark castle.png",
       "description": "A cooperative adventure game where players escape from a castle by overcoming challenges.",
       "how_to_play": "Players work together to explore rooms, face encounters, and defeat bosses to escape the castle.",
       "time_of_play": "30-60 minutes",
@@ -109,7 +109,7 @@
     },
     {
       "name": "No Thanks",
-      "picture": "placeholder_image.jpg",
+      "picture": "no-thanks.png",
       "description": "A card game of bidding and bluffing where the goal is to get the fewest points.",
       "how_to_play": "Players choose whether to take a card with points or pass it by paying a token. The game ends when all cards are taken.",
       "time_of_play": "20 minutes",
@@ -121,7 +121,7 @@
     },
     {
       "name": "Waterfall Park",
-      "picture": "placeholder_image.jpg",
+      "picture": "waterfall park.png",
       "description": "A game where players build a park by negotiating with each other to gather resources.",
       "how_to_play": "Players take turns negotiating deals with other players to collect resources and build the best park.",
       "time_of_play": "45 minutes",
